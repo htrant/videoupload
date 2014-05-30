@@ -1,0 +1,98 @@
+@CHARSET "ISO-8859-1";
+
+* {margin: 0; padding: 0}
+
+body {
+	background-color: #112941;
+	color: #444;
+	font-size: 87.5%;	/* Base font size is 14px */
+	font-family: sans-serif;
+	line-height: 1.5;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #689324;
+}
+
+a:hover, a:active {
+	color: #8DB92B;
+}
+
+form {
+	margin: 30px 0px 30px 0px;
+}
+
+.body {
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+	background-color: #112941;
+}
+
+#content {
+	background: #FFFFFF;
+	margin: 5px 0px 5px 0px;
+	padding: 20px;
+}
+
+#content form .myInput {
+	width: 300px;
+}
+
+#header {
+	margin: 50px 0px 0px 0px;
+	padding: 20px;
+	background: #2E3A35;
+	border-radius: 10px 10px 0px 0px;
+}
+
+#header h1 {
+	color: #999999;
+	font-weight: bold;
+	text-align: center;
+}
+
+#header ul {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#header ul li {
+	display: inline-block;
+	font-size: 1.3em;
+	margin-right: 10px;	
+}
+
+#content .del {
+	color: #990000;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-left: 15px;
+}
+
+#content div#playvideo {
+	margin: 30px 0px 30px 0px;
+}
+
+#content a#player {
+	display: block;
+	width: 638px;
+	height: 450px;
+}
+
+#footer {
+	background: #2E3A35;
+	margin: 0px;
+	padding: 20px;
+	border-radius: 0px 0px 10px 10px;
+	text-align: right;
+}
+
+#footer p {
+	color: #999999;
+}
