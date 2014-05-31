@@ -18,7 +18,7 @@ define('DB_PASS','hihi1308');
 
 /***** PATHS ******/
 //Always add / after a path
-define('URL', 'http://localhost/videodemo/');
+define('URL', 'http://localhost/videoupload/');
 define('URL_SERVER', 'http://www.videodemo.imhieu.com/');
 define('FILEURL', URL_SERVER.'videofiles/');
 define('LIB', 'lib/');
