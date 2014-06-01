@@ -9,5 +9,9 @@ function __autoload($class) {
 }
 
 $webapp = new VideoDemo();
+
+//Optional path
+
+$webapp->init();
 			
 ?>

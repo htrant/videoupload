@@ -6,14 +6,22 @@ class Controller {
 		$this->view = new View();
 	}
 	
-	public function loadModel($name) {
-		$path = 'models/' . $name . '_model.php';
+	/**
+	 * 
+	 * @param string $name Name of model
+	 * @param string $modelPath Location of model
+	 */
+	public function loadModel($name, $modelPath='models/') {
+		$path = $modelPath . $name . '_model.php';
+		
 		if (file_exists($path)) {
-			require $path;
+			require $modelPath . $name . '_model.php';
 			$modelName = $name . '_Model';
 			$this->model = new $modelName();
 		}
+		
 	}
+	
 	
 	public function Error() {
 		$this->view->render('error/index');
