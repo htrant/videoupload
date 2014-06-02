@@ -1,1 +1,1 @@
-<h2>Error!</h2>
+<h2><?php echo $this->msg; ?></h2>
