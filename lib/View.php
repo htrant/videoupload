@@ -2,7 +2,7 @@
 
 class View {
 	function __construct() {
-		//echo "This is the main view<br/>";
+		
 	}
 	
 	public function render($name, $notInclude = false) {
