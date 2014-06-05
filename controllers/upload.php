@@ -16,7 +16,7 @@ class Upload extends Controller {
 				'filetitle' => $_POST ['filetitle'],
 				'filedes' => $_POST ['filedes'],
 				'file' => $file = $_FILES['file']
-		);		
+		);
 		if ($this->model->doUpload($postData) == true) { 
 			header('Location: '. URL . 'video');
 		} else {
